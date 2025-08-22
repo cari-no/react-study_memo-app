@@ -1,5 +1,5 @@
-import { use, useState } from 'react';
-import './App.css';
+import { useState } from 'react';
+import './app.css';
 
 export const App = () => {
   const [notes, setNotes] = useState([]);
